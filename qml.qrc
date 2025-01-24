@@ -1,0 +1,55 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>BikeImage.qml</file>
+        <file>BottonBackground.qml</file>
+        <file>MainBackground.qml</file>
+        <file>MapScreen.qml</file>
+        <file>ScreenMoving.qml</file>
+        <file>images/arrow-left-main.png</file>
+        <file>images/arrow-right-main.png</file>
+        <file>images/background.png</file>
+        <file>images/battery.png</file>
+        <file>images/bike-rearwheel-main.png</file>
+        <file>images/bike-red-wheel.png</file>
+        <file>images/blue_circle_gps_area.png</file>
+        <file>images/botton-background.png</file>
+        <file>images/bottonBikeMain.png</file>
+        <file>images/google_map.png</file>
+        <file>images/info.png</file>
+        <file>images/left-arc-main.png</file>
+        <file>images/lights_off.png</file>
+        <file>images/lights_on.png</file>
+        <file>images/list.png</file>
+        <file>images/map_location_arrow.png</file>
+        <file>images/nav_nodir.png</file>
+        <file>images/no-nav-nodir.png</file>
+        <file>images/right-arc-main.png</file>
+        <file>images/right-arc-main-30-percent.png</file>
+        <file>images/right-arc-main-60-percent.png</file>
+        <file>images/right-arc-main-100-percent.png</file>
+        <file>images/settings.png</file>
+        <file>images/speed.png</file>
+        <file>images/top_curtain_drag.png</file>
+        <file>images/top_curtain_drag_back.png</file>
+        <file>images/assist.png</file>
+        <file>images/calories.png</file>
+        <file>images/trip.png</file>
+        <file>TripScreen.qml</file>
+        <file>images/chart01.png</file>
+        <file>images/apresentacao_hmi.gif</file>
+        <file>SleepClockMode.qml</file>
+        <file>images/clock/arrow.png</file>
+        <file>images/clock/background - Copy.png</file>
+        <file>images/clock/background.png</file>
+        <file>images/clock/background-CES.png</file>
+        <file>images/clock/barcode.gif</file>
+        <file>images/clock/center.png</file>
+        <file>images/clock/clock.png</file>
+        <file>images/clock/clock-night.png</file>
+        <file>images/clock/hour.png</file>
+        <file>images/clock/minute.png</file>
+        <file>images/clock/quit.png</file>
+        <file>images/clock/second.png</file>
+    </qresource>
+</RCC>
