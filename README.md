@@ -387,7 +387,7 @@ Look at Raspberry, you shall see our splash image and after that our application
 To stop the script, ssh into the BBB and
  
 ```console
-$ pkill -f ./QtHmiProjectFinal
+$ pkill -f ./eBikeDisplay
 ```
 
 ## Enable GPIO using WiringPi
@@ -522,7 +522,7 @@ Our project is ready to using in the Github, it will need only to clone the dire
 
 ```console
 pi@raspberrypi:~ $ cd
-pi@raspberrypi:~ $ git clone git@github.geo.conti.de:uidq5744/eBikeDisplay.git
+pi@raspberrypi:~ $ git clone  https://github.com/EltonJunior/eBikeDisplay.git
 Cloning into 'eBikeDisplay'...
 remote: Enumerating objects: 61, done.
 remote: Counting objects: 100% (5/5), done.
@@ -560,7 +560,7 @@ Lets test our application, before put it in the start up
 
 ```console
 pi@raspberrypi:~/eBikeDisplay/eBikeDisplay $ export DISPLAY=:0.0
-pi@raspberrypi:~/Project/QtCreator/QtHmiProjectFinal $ ./eBikeDisplay
+pi@raspberrypi:~/Project/QtCreator/eBikeDisplay $ ./eBikeDisplay
 ```
 
 If everything was ok, lets put our application in the Raspberry startup
@@ -575,9 +575,9 @@ FROM
 
 >[Desktop Entry] \
 >Type=Application \
->Exec=/home/conti/Project/QtCreator/QtHmiProjectFinal/./QtHmiProjectFinal \
->Name=QtHmiProjectFinal \
->Comment=Startup QtHmiProjectFinal on load \
+>Exec=/home/conti/Project/QtCreator/eBikeDisplay/./eBikeDisplay \
+>Name=eBikeDisplay \
+>Comment=Startup eBikeDisplay on load \
 
 TO
 
@@ -591,7 +591,7 @@ To finishing and save, press 'ctrl+x' and digit 'y'  and 'Enter' to save and exi
 ok, Now lets test our application type
 
 ```console
-pi@raspberrypi:~/Project/QtCreator/QtHmiProjectFinal $ sudo reboot
+pi@raspberrypi:~/Project/QtCreator/eBikeDisplay $ sudo reboot
 ```
 
 Well done, The application was started!!!
