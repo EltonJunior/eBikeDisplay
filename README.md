@@ -596,7 +596,9 @@ pi@raspberrypi:~/Project/QtCreator/eBikeDisplay $ sudo reboot
 
 Well done, The application was started!!!
 
-<img src="./eBikeDisplay/images/presentation.gif" alt="CES_logo" />
+<img src="images/Screenshot_1.png" alt="Screenshot_1" />
+<img src="images/Screenshot_2.png" alt="Screenshot_2" />
+<img src="images/Screenshot_3.png" alt="Screenshot_3" />
 
 ## Reference
 
